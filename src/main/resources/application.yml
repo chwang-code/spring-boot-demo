@@ -1,2 +1,14 @@
 server:
   port: 8081
+swagger:
+  docket:
+    group1:
+      title:  spring-boot-demo 标题
+      description:  spring-boot-demo 描述
+      version:  1.0
+      contact:
+        name:  chwang
+        email:  chwang_code@163.com
+      base-package: ch.springboot.demo
+      base-path: /**
+      exclude-path: /error,/ops/**
